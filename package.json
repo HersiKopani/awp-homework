@@ -1,0 +1,17 @@
+{
+  "name": "awp-homework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Advanced Web Programming - homework: review of Lectures 1-4 and a real API",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "e1": "node e1/test.js",
+    "e2": "node e2/test.js",
+    "e3": "node e3/test.js",
+    "e4": "node e4/test.js",
+    "e5": "node e5/serve.js",
+    "e6": "node e6/test.js",
+    "api": "node api/test.js"
+  }
+}
