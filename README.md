@@ -1,19 +1,21 @@
 # Advanced Web Programming – Homework: Lectures 1-4 + a real API
 
-**Course:** Advanced Web Programming • **Assistant lecturer:** Hersi Kopani • **Academic year:** 2026-2027
-Metropolitan University of Tirana – MSc Software Engineering
+**Course:** Advanced Web Programming 
+**Assistant lecturer:** Hersi Kopani 
+**Academic year:** 2026-2027
+Metropolitan University of Tirana - MSc Software Engineering
 
 Seven exercises to complete at home. E1-E6 review Lectures 1-4; the **API** exercise connects your JavaScript to a real public API.
 
 | # | Lecture | Exercise | Time | You write | Run |
 |---|---|---|---|---|---|
-| E1 | 1 HTTP | Parse an HTTP response | 40 min | `e1/http.js` | `npm run e1` |
-| E2 | 2 Modern JS I | Grade statistics | 45 min | `e2/stats.js` | `npm run e2` |
-| E3 | 3 Modern JS II | A shopping cart | 60 min | `e3/product.js`, `e3/cart.js` | `npm run e3` |
-| E4 | 4 Async JS | Retry, timeout, parallel | 50 min | `e4/async.js` | `npm run e4` |
-| E5 | 1 + 4 | Product catalogue in the browser | 50 min | `e5/app.js`, `e5/NOTES.md` | `npm run e5` |
-| E6 | 2 + 3 | Order report from nested JSON | 45 min | `e6/report.js` | `npm run e6` |
-| API | 4 | Integrate DummyJSON | 45 min | `api/products.js` | `npm run api` |
+| E1 | 1 HTTP | Parse an HTTP response  | `e1/http.js` | `npm run e1` |
+| E2 | 2 Modern JS I | Grade statistics | `e2/stats.js` | `npm run e2` |
+| E3 | 3 Modern JS II | A shopping cart | `e3/product.js`, `e3/cart.js` | `npm run e3` |
+| E4 | 4 Async JS | Retry, timeout, parallel | `e4/async.js` | `npm run e4` |
+| E5 | 1 + 4 | Product catalogue in the browser | `e5/app.js`, `e5/NOTES.md` | `npm run e5` |
+| E6 | 2 + 3 | Order report from nested JSON | `e6/report.js` | `npm run e6` |
+| API | 4 | Integrate DummyJSON | `api/products.js` | `npm run api` |
 
 **Deadline:** the evening before the lab (time announced in class). The time of your pull request counts.
 
@@ -23,10 +25,10 @@ Seven exercises to complete at home. E1-E6 review Lectures 1-4; the **API** exer
 
 | What | Points |
 |---|---|
-| Pull request opened before the deadline (even if not everything works) | 1 |
-| In class: you explain your code, present a solution or answer a question | 1 |
+| Pull request opened before the deadline (even if not everything works) | 5 |
+| In class: you explain your code, present a solution or answer a question | 5 |
 
-These participation points count for **5%** of the final grade. In class, students are chosen **at random** to explain any line of their homework, so write code you understand. Stuck? Open the pull request anyway and write in the description where you are stuck and what you tried: it still counts.
+These participation points count for **10%** of the final grade. In class, students are chosen **at random** to explain any line of their homework, so write code you understand. Stuck? Open the pull request anyway and write in the description where you are stuck and what you tried: it still counts.
 
 ## Rules
 
@@ -46,7 +48,7 @@ You need **Node.js 22** or newer (`node -v`), Git and a GitHub account.
 2. Clone **your fork** and create your branch:
 
 ```bash
-git clone https://github.com/<your-username>/awp-homework.git
+git clone https://github.com/HersiKopani/awp-homework.git
 cd awp-homework
 git checkout -b hw-<your-username>
 node -v        # v22.x
